@@ -33,7 +33,7 @@ class IndexController extends Controller
             'money'=>$user_info ? $user_info->money : "",
             'score'=>$user_info ? $user_info->score : "",
         );
-
+        print_r($user_info);die;
         return view('hongbao.index',$return_data);
     }
 
