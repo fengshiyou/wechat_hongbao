@@ -47,7 +47,7 @@ class IndexController extends Controller
             $CONF =  array(
                 '__APPID__' =>getenv("AppID"),
                 '__SERECT__' =>getenv("AppSecret"),
-                '__CALL_URL__' =>'http://fsytest.114-online.com/wechat/openid' //当前页地址
+                '__CALL_URL__' =>'http://zhuanjinke.com/wechat/openid' //当前页地址
             );
 
             //没有传递code的情况下，先登录一下
