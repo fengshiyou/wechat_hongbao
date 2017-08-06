@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::post('/hook','GithubHookController@index');
 Route::get('/index','IndexController@index');
 
 Route::get('/wechat/openid','IndexController@get_open_id');
